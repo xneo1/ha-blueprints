@@ -4,16 +4,13 @@ blueprint:
     You can set functions for a single press. This allows you to assign, 
     e.g., a scene or anything else.
     Rotating left/right will change the brightness smoothly of the selected light.
-    
-    Not all functionality of the device is available at time of writing, e.g. double press, long press and press and rotate.'
-
   domain: automation
   input:
-    remote:
-      name: Remote
-      description: Moes Knob to use
+    switch:
+      name: Tuya Smart Knob
+      description: Tuya Smart Knob used as Button
       selector:
-        device:
+        entity:
           integration: mqtt
           domain: sensor
           multiple: false
