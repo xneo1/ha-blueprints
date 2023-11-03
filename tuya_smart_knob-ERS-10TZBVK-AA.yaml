@@ -27,7 +27,7 @@ blueprint:
       default: []
       selector:
         action: {}
-  source_url: https://gist.github.com/seamus65/939a147634942dd885c8704334627f93
+  source_url: https://github.com/xneo1/ha-blueprints/blob/main/tuya_smart_knob-ERS-10TZBVK-AA.yaml
 mode: restart
 max_exceeded: silent
 trigger:
