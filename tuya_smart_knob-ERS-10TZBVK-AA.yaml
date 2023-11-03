@@ -34,7 +34,7 @@ blueprint:
       default: []
       selector:
         action: {}
-  #source_url: https://gist.github.com/seamus65/939a147634942dd885c8704334627f93
+  source_url: https://gist.github.com/xneo1/ebc376a34af848744c0890532d019d32
 mode: restart
 max_exceeded: silent
 trigger:
